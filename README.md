@@ -15,12 +15,12 @@ sudo apt-get install redis-server
 
 sudo service redis-server start
 
-**
-Start the FastAPI server**
+**Start the FastAPI server**
+
 uvicorn app.main:app --reload
 
-**
-Make a POST request to start scraping**
+**Make a POST request to start scraping**
+
 curl -X 'POST' \
   'http://127.0.0.1:8000/scrape' \
   -H 'accept: application/json' \
