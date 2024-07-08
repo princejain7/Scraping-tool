@@ -10,7 +10,9 @@ source env/bin/activate
 pip install -r requirements.txt
 
 **Ensure Redis is installed and running**
+
 sudo apt-get install redis-server
+
 sudo service redis-server start
 
 **
