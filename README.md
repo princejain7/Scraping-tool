@@ -1,9 +1,11 @@
 **Create a virtual env**
+
 python -m venv env
 source env/bin/activate
 
 
 **Install the dependencies**
+
 pip install -r requirements.txt
 
 **Ensure Redis is installed and running**
